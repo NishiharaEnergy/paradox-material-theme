@@ -148,7 +148,10 @@ $!
       safely do: `url.base + doc.location`.
 
     !$
-    <script>app.initialize({version:"0.17",url:{base:"$page.base$."}})</script>
+
+    $page.properties.("material.search.scripts")$
+
+    <script>app.initialize({version:"1.0.4",url:{base:"$page.base$."}})</script>
     <script type="text/javascript" src="$page.base$lib/prettify/prettify.js"></script>
     <script type="text/javascript" src="$page.base$lib/prettify/lang-scala.js"></script>
     <script type="text/javascript">
