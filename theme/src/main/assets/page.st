@@ -27,7 +27,7 @@ $!
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="$page.properties.("project.description")$">
-    <meta name="generator" content="Paradox, paradox-material-theme=$page.properties.("material.theme.version")$, mkdocs-material=3.0.3">
+    <meta name="generator" content="Paradox, paradox-material-theme=$page.properties.("material.theme.version")$, mkdocs-material=4.6.0">
 
     $partials/language()$
 
@@ -52,16 +52,16 @@ $!
     $ else $
       <title>$page.home.title$</title>
     $ endif $
-    <link rel="stylesheet" href="$page.base$assets/stylesheets/application.451f80e5.css">
+    <link rel="stylesheet" href="$page.base$assets/stylesheets/application.1b62728e.css">
     $ if (page.properties.("material.color.primary")) $
-      <link rel="stylesheet" href="$page.base$assets/stylesheets/application-palette.22915126.css">
+      <link rel="stylesheet" href="$page.base$assets/stylesheets/application-palette.a8b3c06d.css">
       $ if (page.properties.("material.color.primary.theme")) $
         <meta name="theme-color" content="$page.properties.("material.color.primary.theme")$" />
       $ endif $
     $ endif $
     <link rel="stylesheet" href="$page.base$lib/material__tabs/dist/mdc.tabs.min.css">
     <link rel="stylesheet" href="$page.base$lib/prettify/prettify.css">
-    <script src="$page.base$assets/javascripts/modernizr.1aa3b519.js"></script>
+    <script src="$page.base$assets/javascripts/modernizr.268332fc.js"></script>
     $ if (page.properties.("material.font.text")) $
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=$page.properties.("material.font.text.url")$:300,400,400i,700|$page.properties.("material.font.code.url")$">
       <style>
@@ -134,7 +134,7 @@ $!
       </main>
       $partials/footer()$
     </div>
-    <script src="$page.base$assets/javascripts/application.583bbe55.js"></script>
+    <script src="$page.base$assets/javascripts/application.808e90bb.js"></script>
     <script src="$page.base$assets/javascripts/paradox-material-theme.js"></script>
     $!
 

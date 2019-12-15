@@ -58,6 +58,11 @@ case class ParadoxMaterialTheme(properties: Map[String, String]) {
       "search.tokenizer" -> tokenizer
     )
 
+  def withSearchLanguage(languages: String*) =
+    withProperties(
+      "search.language" -> languages.mkString(",")
+    )
+
   def withoutSearch() =
     withoutProperties("search", "search.tokenizer")
 
@@ -117,6 +122,7 @@ object ParadoxMaterialTheme {
       .withLogoIcon("local_library")
       .withFavicon("assets/images/favicon.png")
       .withSearch()
+      .withSearchLanguage()
   }
 
   object Palette {
