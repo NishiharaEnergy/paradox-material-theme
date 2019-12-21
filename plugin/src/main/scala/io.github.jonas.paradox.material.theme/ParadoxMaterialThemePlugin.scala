@@ -26,7 +26,7 @@ object ParadoxMaterialThemePlugin extends AutoPlugin {
     version in paradoxMaterialTheme :=
       Option(ParadoxPlugin.readProperty("paradox-material-theme.properties", "version"))
         .getOrElse(sys.error("Undefined paradox-material-theme version")),
-    paradoxTheme := Some("io.github.jonas" % "paradox-material-theme" % (version in paradoxMaterialTheme).value)
+    paradoxTheme := Some("com.github.jkugiya" % "paradox-material-theme" % (version in paradoxMaterialTheme).value)
   )
 
   def paradoxMaterialThemeSettings(config: Configuration): Seq[Setting[_]] =
