@@ -1,21 +1,21 @@
 val repo = new {
-  val org = "jonas"
+  val org = "jkugiya"
   val name = "paradox-material-theme"
   val path = org + "/" + name
 }
 
 inThisBuild(Def.settings(
-  organization := "io.github.jonas",
-  licenses += "MIT" -> url("https://github.com/jonas/paradox-material-theme/blob/master/LICENSE"),
-  homepage := Some(url(s"https://${repo.org}.github.io/${repo.name}")),
+  organization := "io.github.jkugiya",
+  licenses += "MIT" -> url("https://github.com/jkugiya/paradox-material-theme/blob/master/LICENSE"),
+  homepage := None,
   scmInfo := Some(
     ScmInfo(
-      url(s"https://github.com/${repo.path}"),
+      url(s"https://github.com/jkugiya/paradox-material-theme"),
       s"scm:git:git@github.com:${repo.path}.git"
     )
   ),
   developers := List(
-    Developer("jonas", "Jonas Fonseca", "jonas.fonseca@gmail.com", url("https://github.com/jonas"))
+    Developer("jkugiya", "Jiro Kugiya", "j.kugiya@gmail.com", url("https://github.com/jkugiya"))
   ),
   // Workaround NPE when publishing: https://github.com/sbt/sbt/issues/3519
   updateOptions := updateOptions.value.withGigahorse(false),
