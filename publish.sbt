@@ -5,9 +5,9 @@ val repo = new {
 }
 
 inThisBuild(Def.settings(
-  organization := "io.github.jkugiya",
+  organization := "com.github.jkugiya",
   licenses += "MIT" -> url("https://github.com/jkugiya/paradox-material-theme/blob/master/LICENSE"),
-  homepage := None,
+  homepage := Some(url("https://github.com/jkugiya/paradox-material-theme")),
   scmInfo := Some(
     ScmInfo(
       url(s"https://github.com/jkugiya/paradox-material-theme"),
