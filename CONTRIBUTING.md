@@ -20,4 +20,9 @@ For code contributions, these are the suggested steps:
  - Address any issues raised during the code review.
  - Once you get a "+1" on the pull request, the change can be merged.
 
- [issue tracker]: https://github.com/jonas/paradox-material-theme/issues/new
+@@@ note { .no-title }
+For now, I will create PRs for changes to this repository.
+@@@
+
+ [issue tracker]: https://github.com/jkugiya/paradox-material-theme/issues/new
+ [issue tracker(Original)]: https://github.com/jonas/paradox-material-theme/issues/new
