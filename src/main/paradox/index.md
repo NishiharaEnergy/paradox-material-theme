@@ -26,7 +26,7 @@ project's `project/plugins.sbt`:
 
 @@@ vars
 ``` sbt
-addSbtPlugin("io.github.jonas" % "sbt-paradox-material-theme" % "$project.version$")
+addSbtPlugin("io.github.jkugiya" % "sbt-paradox-material-theme" % "$project.version$")
 ```
 @@@
 
