@@ -65,12 +65,6 @@ lazy val root = project("paradox-material-theme-parent", file("."))
     }
     //#language
     ,
-    //#analytics
-    Compile / paradoxMaterialTheme ~= {
-      _.withGoogleAnalytics("UA-107934279-1") // Remember to change this!
-    }
-    //#analytics
-    ,
     //#copyright
     Compile / paradoxMaterialTheme ~= {
       _.withCopyright("""
@@ -202,6 +196,12 @@ lazy val optionExamples = Def.settings(
     _.withSearchLanguage("ru", "jp")
   }
   //#search-language
+  ,
+  //#analytics
+  Compile / paradoxMaterialTheme ~= {
+    _.withGoogleAnalytics("UA-107934279-1") // Remember to change this!
+  }
+  //#analytics
 )
 
 def project(id: String, base: File): Project = {
